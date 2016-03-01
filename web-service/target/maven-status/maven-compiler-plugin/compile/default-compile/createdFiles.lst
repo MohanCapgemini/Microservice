@@ -1,0 +1,7 @@
+io\pivotal\microservices\services\web\WebAccountsController.class
+io\pivotal\microservices\services\web\HomeController.class
+io\pivotal\microservices\services\web\WebAccountsService.class
+io\pivotal\microservices\services\web\Account.class
+io\pivotal\microservices\services\web\SearchCriteria.class
+io\pivotal\microservices\services\Main.class
+io\pivotal\microservices\services\web\WebServer.class
