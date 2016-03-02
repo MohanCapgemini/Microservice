@@ -28,8 +28,6 @@ import org.springframework.jdbc.datasource.DriverManagerDataSource;
  * </ol>
  * <p>
  * To execute as a microservice, run {@link AccountsServer} instead.
- * 
- * @author Paul Chapman
  */
 @SpringBootApplication
 @EntityScan("io.pivotal.microservices.accounts")

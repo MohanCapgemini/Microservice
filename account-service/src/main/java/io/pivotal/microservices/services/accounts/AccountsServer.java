@@ -21,8 +21,6 @@ import org.springframework.context.annotation.Import;
  * <li>Standalone - by executing {@link AccountsWebApplication#main(String[])}</li>
  * <li>As a microservice - by executing {@link AccountsServer#main(String[])}</li>
  * </ul>
- * 
- * @author Paul Chapman
  */
 @EnableAutoConfiguration
 @EnableDiscoveryClient

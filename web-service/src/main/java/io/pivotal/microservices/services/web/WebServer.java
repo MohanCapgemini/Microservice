@@ -9,8 +9,6 @@ import org.springframework.context.annotation.ComponentScan;
 /**
  * Accounts web-server. Works as a microservice client, fetching data from the
  * Account-Service. Uses the Discovery Server (Eureka) to find the microservice.
- * 
- * @author Paul Chapman
  */
 @SpringBootApplication
 @EnableDiscoveryClient
