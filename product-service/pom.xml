@@ -13,7 +13,7 @@
 	</parent>
 
 	<properties>
-		<start-class>io.pivotal.microservices.services.products.ProductsServer</start-class>
+		<start-class>com.disney.poc.microservices.products.ProductsServer</start-class>
 	</properties>
 
 	<dependencies>

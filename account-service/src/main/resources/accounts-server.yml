@@ -20,17 +20,3 @@ eureka:
 # HTTP Server
 server:
   port: 2222   # HTTP (Tomcat) port
-  
-  
-  
----
-
-spring:
-    profiles: docker
-# Discovery Server Access
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://discovery:1111/eureka/
-
-

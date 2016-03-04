@@ -1,7 +1,0 @@
-io\pivotal\microservices\accounts\AccountNotFoundException.class
-io\pivotal\microservices\accounts\HomeController.class
-io\pivotal\microservices\accounts\AccountRepository.class
-io\pivotal\microservices\accounts\Account.class
-io\pivotal\microservices\accounts\AccountsController.class
-io\pivotal\microservices\services\accounts\AccountsServer.class
-io\pivotal\microservices\accounts\AccountsWebApplication.class

@@ -13,7 +13,7 @@
 	</parent>
 
 	<properties>
-		<start-class>io.pivotal.microservices.services.web.WebServer</start-class>
+		<start-class>com.disney.poc.microservices.web.WebServer</start-class>
 	</properties>
 
 </project>
