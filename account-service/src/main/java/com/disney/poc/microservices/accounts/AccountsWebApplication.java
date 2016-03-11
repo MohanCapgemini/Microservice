@@ -43,7 +43,7 @@ public class AccountsWebApplication {
 		// Sanity check
 		JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource);
 		List<Map<String, Object>> accounts = jdbcTemplate
-				.queryForList("SELECT number FROM T_ACCOUNT");
+				.queryForList("SELECT number FROM t_account");
 		logger.info("System has " + accounts.size() + " accounts");
 
 		return dataSource;
