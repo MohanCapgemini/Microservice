@@ -2,12 +2,10 @@ package com.disney.poc.microservices.accounts;
 
 import java.util.logging.Logger;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.annotation.Import;
-import org.springframework.core.env.Environment;
 
 /**
  * Run as a micro-service, registering with the Discovery Server (Eureka).
@@ -17,9 +15,6 @@ import org.springframework.core.env.Environment;
 @Import(AccountsWebApplication.class)
 public class AccountsServer {
 	
-	@Autowired
-    Environment env;
-
 	protected Logger logger = Logger.getLogger(AccountsServer.class.getName());
 
 	/**
